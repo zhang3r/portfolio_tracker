@@ -8,7 +8,14 @@ daily portfolio tracker
      :alt: Built with Cookiecutter Django
 
 
-:License: MIT
+.. image:: https://img.shields.io/travis/zhang3r/itineraryTracker/master.svg    
+     :target: https://travis-ci.org/zhang3r/itineraryTracker
+     :alt: Build Status
+
+.. image:: https://coveralls.io/repos/github/zhang3r/itineraryTracker/badge.svg?branch=master         :target: https://coveralls.io/github/zhang3r/itineraryTracker?branch=master
+     :alt: Test Coverage
+
+     :License: MIT
 
 
 Settings

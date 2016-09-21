@@ -60,3 +60,11 @@ TEMPLATES[0]['OPTIONS']['loaders'] = [
         'django.template.loaders.app_directories.Loader',
     ]),
 ]
+
+# DATABASE
+DATABASES ={ 
+    'default': {
+        'ENGINE':'django.db.backends.sqlite3',
+        'NAME':'test_portfolio_tracker',
+        }
+   }
