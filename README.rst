@@ -3,20 +3,21 @@ portfolio_tracker
 
 daily portfolio tracker
 
-.. image:: https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg
-     :target: https://github.com/pydanny/cookiecutter-django/
-     :alt: Built with Cookiecutter Django
 
 
 .. image:: https://img.shields.io/travis/zhang3r/portfolio_tracker/master.svg    
      :target: https://travis-ci.org/zhang3r/portfolio_tracker
      :alt: Build Status
 
-.. image:: https://coveralls.io/repos/github/zhang3r/portfolio_tracker/badge.svg?branch=master    
+.. image:: https://coveralls.io/repos/github/zhang3r/portfolio_tracker/badge.svg?branch=master   
      :target: https://coveralls.io/github/zhang3r/portfolio_tracker?branch=master
      :alt: Test Coverage
 
-     :License: MIT
+.. image:: https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg
+     :target: https://github.com/pydanny/cookiecutter-django/
+     :alt: Built with Cookiecutter Django
+
+    :License: MIT
 
 
 Settings
