@@ -23,5 +23,5 @@ RUN sed -i 's/\r//' /entrypoint.sh \
     && chown django /gunicorn.sh
 
 WORKDIR /app
-
+EXPOSE 80
 ENTRYPOINT ["/entrypoint.sh"]
