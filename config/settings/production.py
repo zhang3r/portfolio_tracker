@@ -134,9 +134,14 @@ TEMPLATES[0]['OPTIONS']['loaders'] = [
 # DATABASE CONFIGURATION
 # ------------------------------------------------------------------------------
 # Raises ImproperlyConfigured exception if DATABASE_URL not in os.environ
-DATABASES['default'] = env.db('DATABASE_URL')
+#DATABASES['default'] = env.db('DATABASE_URL')
 
-# CACHING
+DATABASES ={
+   'default': {
+        'ENGINE':'django.db.backends.sqlite3',
+        'NAME':'test_portfolio_tracker',
+        }
+    }
 # ------------------------------------------------------------------------------
 # Heroku URL does not pass the DB number, so we parse it in
 CACHES = {
